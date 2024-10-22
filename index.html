@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q1 SEATWORK 2</title>
+<!-- add your css here -->
+
+	<style type="text/css">
+
+					#shadowBox {
+			  background-color: rgb(0, 0, 0);
+			  /* Fallback color */
+			  background-color: rgba(0, 0, 0, 0.2);
+			  /* Black w/opacity/see-through */
+			  border: 3px solid;
+			}
+
+			.rainbow {
+			  text-align: center;
+			  text-decoration: underline;
+			  font-size: 32px;
+			  font-family: monospace;
+			  letter-spacing: 5px;
+			  animation: colorRotate 6s linear 0s infinite;
+			}
+
+			@keyframes colorRotate {
+			  from {
+			    color: #6666ff;
+			  }
+			  10% {
+			    color: #0099ff;
+			  }
+			  50% {
+			    color: #00ff00;
+			  }
+			  75% {
+			    color: #ff3399;
+			  }
+			  100% {
+			    color: #6666ff;
+			  }
+			}
+
+
+
+
+
+		*{
+			margin: 0;
+			padding:0;
+
+		body{
+			background-image: url(https://cdn.pixabay.com/photo/2015/10/20/16/46/concrete-998049_1280.jpg);
+		}
+
+
+
+		}
+		
+		.header,
+		.footer{
+			background-color: goldenrod;
+			padding: 40px;
+			text-align: center;
+		}
+
+		.container{
+			background-color: rgba(167,167,167,0.62);
+			margin:25%;
+			box-shadow: -2px -2px 17px 9px rgba(32,26,26,0.81);
+
+		}
+
+		img{
+			width: 60%;
+			border-radius: 70px;
+			border: 5px solid gray;
+
+		}
+
+		form{
+			border-radius: 10px;
+			background-color:solid grey;
+			padding: 15px;
+			margin-left: 25%;
+			margin-right: 25%;
+			margin-top: 10%;
+			margin-bottom: 10%;
+		}
+
+		.button{
+			color: black;
+			background-color: darkgoldenrod;
+			widht: 90%;
+		}
+
+		.button: hover{
+			background-color: darkgoldenrod;
+		}
+
+
+
+	</style>
+
+
+
+</head>
+<body>
+
+	<!-- HEADER -->
+
+		<div class="header">
+		  <h1>Welcome to My Webpage</h1>	
+		</div>
+
+	<!-- CONTAINER -->
+
+		<div class="container">
+			<form>
+
+			<center>
+			<img src="https://cdl.ucf.edu/wp-content/uploads/2021/07/Blank-ID-avatar.png">
+			<center>
+
+
+			<h2 class="rainbow">LOGIN</h2>
+					<label>Username: </label><br />
+					<input type="text"><br />
+
+					<label>Password: </label><br />
+					<input type="Password"><br />
+
+					<input type=submit value="Login" class="button">
+
+					<br />
+
+					
+
+
+
+			</form>
+		</div>
+
+	<!-- FOOTER -->
+		<div class="footer">
+		<h3>RENZO ISAAC OLIVA ARCE | 9 Topaz</h3>	
+
+		</div>
+
+</body>
+</html>
